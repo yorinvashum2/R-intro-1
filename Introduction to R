@@ -1,0 +1,42 @@
+1) > print("Hello reader!")
+	[1] "Hello reader!"
+	
+
+	2) Addition of two vectors
+	 > x
+	[1] 3 6 9
+	> y
+	[1] 2 9 0
+	> x + y
+	[1]  5 15  9
+	
+
+	3) Finding Sum
+	> sum(2,7,5)
+	[1] 14
+	4) Finding mean
+	> mean(x, na.rm=TRUE)
+	[1] 2.5
+	5) Finding product
+	> prod(x, na.rm=TRUE)
+	[1] 24
+	
+
+	6) Sampling from population:
+	> x
+	[1]  1  3  5  7  9 11 13 15 17
+	> # sample 2 items from x
+	> sample(x, 2)
+	[1] 13  9
+	7) Finding Minimum Value
+	> x
+	[1] 5  8  3 9  2  7  4  6 10
+	> Min(x)
+	[1] 2
+	8) Finding Maximum value
+	> Max(x)
+	[1] 10
+	9) Finding the Range
+	> range(x)
+	[1] 2 10
+
